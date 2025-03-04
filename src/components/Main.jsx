@@ -24,7 +24,7 @@ export default function Main() {
                     sm: 'repeat(2, 1fr)',
                     md: 'repeat(3, 1fr)',
                 },
-                gap: 2,
+                gap: 5,
             }}
         >
 

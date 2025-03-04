@@ -24,9 +24,13 @@ export default function MainCard({ item }) {
                 </CardContent>
             </CardActionArea>
             <CardActions>
-                <Button size="small" color="primary">
+                <Button
+                    size="small"
+                    sx={{ backgroundColor: '#ff5a3d', color: 'white', '&:hover': { backgroundColor: 'darkorange' } }}
+                >
                     Share
                 </Button>
+
             </CardActions>
         </Card>
     )
