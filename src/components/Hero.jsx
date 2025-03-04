@@ -17,7 +17,7 @@ export default function Hero() {
                 px: 3,
             }}
         >
-            {/* Black Overlay */}
+
             <Box
                 sx={{
                     position: "absolute",
@@ -25,7 +25,7 @@ export default function Hero() {
                     left: 0,
                     width: "100%",
                     height: "100%",
-                    backgroundColor: "rgba(0, 0, 0, 0.4)", // Black overlay with transparency
+                    backgroundColor: "rgba(0, 0, 0, 0.4)",
                 }}
             />
 
@@ -36,7 +36,7 @@ export default function Hero() {
                         variant="h2"
                         fontWeight="bold"
                         sx={{
-                            fontSize: { xs: "2rem", sm: "3rem", md: "4rem" }, // Responsive font size
+                            fontSize: { xs: "2rem", sm: "3rem", md: "4rem" },
                         }}
                     >
                         Miami Real Estate Specialists
@@ -45,8 +45,8 @@ export default function Hero() {
                         variant="body1"
                         sx={{
                             my: 2,
-                            width: { xs: "90%", md: "60%" }, // Adjust width on different screen sizes
-                            fontSize: { xs: "1rem", md: "1.25rem" }, // Adjust text size
+                            width: { xs: "90%", md: "60%" },
+                            fontSize: { xs: "1rem", md: "1.25rem" },
                         }}
                     >
                         Your specialists in residential and commercial properties. From dream homes to prime business spaces, trust our unique expertise to guide you in Miami/South Florida's dynamic market.
@@ -55,7 +55,7 @@ export default function Hero() {
                         variant="contained"
                         color="primary"
                         size="large"
-                        sx={{ width: { xs: "100%", sm: "auto" } }} // Button takes full width on small screens
+                        sx={{ width: { xs: "100%", sm: "auto" }, backgroundColor: '#ff5a3d', padding: '10px' }}
                     >
                         Get Started
                     </Button>

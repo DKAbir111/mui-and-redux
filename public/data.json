@@ -1,0 +1,57 @@
+[
+    {
+        "_id": "67af8610970db94cc175c8c2",
+        "title": "Miami-Dade County",
+        "image": "https://i.ibb.co.com/jPbdt7pb/image1.jpg"
+    },
+    {
+        "_id": "67af8610970db94cc175c8c3",
+        "title": "Brickell",
+        "image": "https://i.ibb.co.com/k6rXjbBs/image2.jpg"
+    },
+    {
+        "_id": "67af8610970db94cc175c8c4",
+        "title": "Downtown Miami",
+        "image": "https://i.ibb.co.com/VYbtmLTb/image3.jpg"
+    },
+    {
+        "_id": "67af8610970db94cc175c8c5",
+        "title": "Wynwood",
+        "image": "https://i.ibb.co.com/7dfSTYHv/image4.jpg"
+    },
+    {
+        "_id": "67af8610970db94cc175c8c6",
+        "title": "Edgewater",
+        "image": "https://i.ibb.co.com/B20L4RJL/image5.jpg"
+    },
+    {
+        "_id": "67af8610970db94cc175c8c7",
+        "title": "Doral Central",
+        "image": "https://i.ibb.co.com/1YVK16wh/image6.jpg"
+    },
+    {
+        "_id": "67af8610970db94cc175c8c8",
+        "title": "Mid Beach",
+        "image": "https://i.ibb.co.com/LhZtnvqY/image7.jpg"
+    },
+    {
+        "_id": "67af8610970db94cc175c8c9",
+        "title": "South Beach",
+        "image": "https://i.ibb.co.com/Ff6xvRH/image8.jpg"
+    },
+    {
+        "_id": "67af8610970db94cc175c8ca",
+        "title": "Miami",
+        "image": "https://i.ibb.co.com/PsL2JKqq/image9.jpg"
+    },
+    {
+        "_id": "67af8610970db94cc175c8cb",
+        "title": "Founders Park",
+        "image": "https://i.ibb.co.com/z3zM4jZ/image10.jpg"
+    },
+    {
+        "_id": "67af8610970db94cc175c8cc",
+        "title": "Dorai Central Park",
+        "image": "https://i.ibb.co.com/YTJdqdDz/image11.jpg"
+    }
+]
