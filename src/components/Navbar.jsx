@@ -14,6 +14,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { useState } from 'react';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 const drawerWidth = 240;
 const navItems = ['Home', 'About', 'Contact'];
@@ -49,8 +50,10 @@ function Navbar(props) {
     return (
         <Box sx={{ display: 'flex' }}>
             <CssBaseline />
+
+
             <AppBar component="nav" sx={{ backgroundColor: 'black' }}>
-                <Toolbar>
+                <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
                     <IconButton
                         color="inherit"
                         aria-label="open drawer"
@@ -63,7 +66,7 @@ function Navbar(props) {
                     <Typography
                         variant="h6"
                         component="div"
-                        sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
+                        sx={{ display: { xs: 'none', sm: 'block' }, fontWeight: 'bold' }}
                     >
                         TypeTech
                     </Typography>
@@ -74,7 +77,7 @@ function Navbar(props) {
                             </Button>
                         ))}
                     </Box>
-                    <Button variant="contained">Contained</Button>
+                    <Button variant="contained" sx={{ backgroundColor: '#ff5a3d', padding: '10px' }}>ES <KeyboardArrowDownIcon /></Button>
                 </Toolbar>
             </AppBar>
             <nav>
@@ -96,6 +99,7 @@ function Navbar(props) {
             </nav>
 
         </Box >
+
     );
 }
 
