@@ -15,6 +15,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { useState } from 'react';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import { useSelector } from 'react-redux';
 
 const drawerWidth = 240;
 const navItems = ['Home', 'About', 'Contact'];
@@ -46,7 +47,7 @@ function Navbar(props) {
     );
 
     const container = window !== undefined ? () => window().document.body : undefined;
-
+    const count = useSelector((state) => state.counter.value)
     return (
         <Box sx={{ display: 'flex' }}>
             <CssBaseline />
@@ -77,6 +78,9 @@ function Navbar(props) {
                             </Button>
                         ))}
                     </Box>
+                    <Typography variant='h6'>
+                        Total:{count}
+                    </Typography>
                     <Button variant="contained" sx={{ backgroundColor: '#ff5a3d', padding: '10px' }}>ES <KeyboardArrowDownIcon /></Button>
                 </Toolbar>
             </AppBar>

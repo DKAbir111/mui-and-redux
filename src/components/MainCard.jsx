@@ -5,9 +5,14 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import CardActionArea from '@mui/material/CardActionArea';
 import CardActions from '@mui/material/CardActions';
+import { useDispatch } from 'react-redux'
+import { increment } from "../redux/counter/counterSlice"
 export default function MainCard({ item }) {
+
+    const dispatch = useDispatch()
     return (
         <Card >
+
             <CardActionArea>
                 <CardMedia
                     component="img"
@@ -25,10 +30,11 @@ export default function MainCard({ item }) {
             </CardActionArea>
             <CardActions>
                 <Button
+                    onClick={() => dispatch(increment())}
                     size="small"
                     sx={{ backgroundColor: '#ff5a3d', color: 'white', '&:hover': { backgroundColor: 'darkorange' } }}
                 >
-                    Share
+                    Add to Cart
                 </Button>
 
             </CardActions>
