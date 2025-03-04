@@ -32,13 +32,31 @@ export default function Hero() {
             {/* Content */}
             <Container sx={{ position: "relative", zIndex: 1 }}>
                 <Stack spacing={3} alignItems="center" color="white">
-                    <Typography variant="h1" fontWeight="bold">
+                    <Typography
+                        variant="h2"
+                        fontWeight="bold"
+                        sx={{
+                            fontSize: { xs: "2rem", sm: "3rem", md: "4rem" }, // Responsive font size
+                        }}
+                    >
                         Miami Real Estate Specialists
                     </Typography>
-                    <Typography variant="body1" sx={{ my: 2, width: "80%" }}>
+                    <Typography
+                        variant="body1"
+                        sx={{
+                            my: 2,
+                            width: { xs: "90%", md: "60%" }, // Adjust width on different screen sizes
+                            fontSize: { xs: "1rem", md: "1.25rem" }, // Adjust text size
+                        }}
+                    >
                         Your specialists in residential and commercial properties. From dream homes to prime business spaces, trust our unique expertise to guide you in Miami/South Florida's dynamic market.
                     </Typography>
-                    <Button variant="contained" color="primary" size="large">
+                    <Button
+                        variant="contained"
+                        color="primary"
+                        size="large"
+                        sx={{ width: { xs: "100%", sm: "auto" } }} // Button takes full width on small screens
+                    >
                         Get Started
                     </Button>
                 </Stack>
