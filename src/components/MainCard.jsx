@@ -11,7 +11,7 @@ export default function MainCard({ item }) {
             <CardActionArea>
                 <CardMedia
                     component="img"
-                    height="140"
+                    height="160"
                     image={item.image}
                     alt="green iguana"
                 />

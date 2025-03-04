@@ -14,6 +14,8 @@ function App() {
       <Dividers />
       <Dividers />
       <Main />
+      <Dividers />
+      <Dividers />
     </div>
 
   )
